@@ -139,8 +139,9 @@ class SecurityApp:
         self.running = False
         self.clear_frame()
         timeout_msg = (
-            "Name: POLOK PODDAR (PROLOY)\n"
-            "If urgent, call: 01770065234"
+            # "Name: POLOK PODDAR (PROLOY)\n"
+            # "If urgent, call: 01770065234"
+            # Type here your timeout massage .
         )
         ttk.Label(self.root, text=timeout_msg, font=("Arial", 24), wraplength=700, justify="center").pack(pady=50)
 
